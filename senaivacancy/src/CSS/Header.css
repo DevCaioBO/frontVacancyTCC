@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.senai-initial-page-container{
+    display: flex;
+    width: 100%;
+    height: 116px;
+    background-color: #e30613;
+    align-items: center;
+    padding-inline: 56px;
+}
+
+.box-align-cotent-white{
+    display: flex;
+    padding: 17px 0;
+    border-bottom: 2px solid #fff;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+/* Caixa  para proteger a ul children  assim conseguindo alinhar */
+.box-navigation-support-acess{
+    display: flex;
+    align-items: center;
+}
+/*  A UL children em sí que cria um espaçamento entre os items */
+
+.box-support-acess-children{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.box-support-acess-children > li{
+    list-style-type: none;
+}
+
+.box-support-acess-children > li > .link-to-support-acess{
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    
+}
+.box-support-acess-children > li > .link-to-support-acess:hover{
+
+    color: #000000;
+    
+}
+
+.search-icon-button-course{
+    display: flex;
+
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.search-icon-button-course > img{
+
+
+    width: 100%;
+}
+
+.box-students-acess-perfil-page{
+    display: flex;
+    align-items: center;
+}
+.perfil-icon-student{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+}
+.perfil-icon-student > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+
+
+    
+}
+.box-students-acess-perfil-page > .perfil-icon-student > img{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+}
+
+.link-to-login-page{
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+/* DEBUGGING */
+/* .box-align-cotent-white{
+    border: 2px solid #fff;
+} */
+.menu-container-icon{
+    display: none;
+}
+#desktop-none-navigation{
+    display: flex;
+}
+
+#box-students-acess-perfil-page-responsive{
+    display: none;
+}
+
+#search-icon-button-course-responsive{
+    display: none;
+}
+
+@media(max-width:999px){
+    .box-align-cotent-white{
+        display: flex;
+        padding: 17px 0;
+        border-bottom: 2px solid #fff;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .menu-container-icon{
+        display: flex;
+    }
+    .box-navigation-support-acess{
+        position: fixed;
+        inset: 0;
+        margin: 0;
+        padding: 0;
+        background: red;
+        z-index: 50;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+    .box-navigation-support-acess ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    #destopModeIconStudent{
+        display: none;
+    }
+    #desktopModeIconSearchCourse{
+        display: none;
+    }
+    .box-senai-logo-alignment{
+        width: 100px;
+    }
+    .box-senai-logo-alignment > img{
+        width: 100%;
+    }
+    .senai-initial-page-container{
+        display: flex;
+        width: 100%;
+        height: 116px;
+        background-color: #751c1c;
+        align-items: center;
+        
+        padding-inline: 0;
+      
+    }
+    .box-align-cotent-white{
+        display: flex;
+        width: 100%;
+        border: none;
+        justify-content: space-around;
+       
+    }
+    .search-icon-button-course{
+        background-color: red;
+    }
+
+}
+
+
+/* Mobile */
+/* @media (max-width:425px){
+    .box-navigation-support-acess{
+        display: none;
+    }
+    .box-students-acess-perfil-page{
+        display: none;
+    }
+}
+
+@media (max-width:1361px){
+    .student-view-example-design img:nth-child(1){
+        display: flex;
+      
+        height: 100px;
+       
+        
+    }
+    .box-navigation-support-acess{
+        display: none;
+    }
+    .box-students-acess-perfil-page{
+        display: none;
+    }
+} */
+

@@ -1,0 +1,8 @@
+.footer-container-initial-page{
+    display: flex;
+    background-color: red;
+    height: 350px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-top: 35px;
+}

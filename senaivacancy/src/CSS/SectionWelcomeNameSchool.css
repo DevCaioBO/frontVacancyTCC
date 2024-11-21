@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container-nameSchool{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+
+    margin-top: 140px;
+    justify-content: space-around;
+    font-family:   'Poppins',sans-serif;
+   
+    row-gap: 35px;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 50px;
+  
+    gap: 25px;
+    
+}
+.column-save{
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.name-school-senai{
+    display: flex;
+   
+    
+    row-gap: 15px;
+    flex-direction: column;
+
+
+}
+
+.p-name-school-senai{
+    color: gray;
+    font-size: 15px;
+
+}
+.p-name-school-senai2{
+    color: #000;
+    font-size: 36px;
+
+}
+.p-name-school-senai3{
+    color: #000;
+    font-size: 30px;
+
+}
+.buttons-view-courses{
+    display: flex;
+    gap: 15px;
+
+}
+.button-view-courses1{
+    width: 149px;
+    height: 49px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+.button-view-courses2{
+    width: 149px;
+    height: 49px;
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.container-nameSchoolMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 592px;
+ 
+   
+}
+
+.container-nameSchoolMap img{
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+   
+}
+.container-boost{
+    display: flex;
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+}

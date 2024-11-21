@@ -1,0 +1,11 @@
+.blog-image-anounciment{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.blog-image-anounciment img{
+    width: 75%;
+
+}

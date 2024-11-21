@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container-section-university{
+    display: flex;
+    margin-top: 48px;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Poppins',sans-serif;
+    padding-inline: 45px;
+    
+
+
+}
+.container-university-location{
+ 
+    width: fit-content;
+
+    
+}
+.container-university-location p{
+
+    width: 626px;
+
+    font-size: 20px;
+   
+    
+
+}
+.container-university-location h1{
+
+    color: red;
+   
+    
+
+}
+.container-university-location p:nth-child(4){
+
+    display: flex;
+    text-wrap: nowrap;
+    text-align: start;
+
+
+    
+
+}
+.container-university-location img{
+    width: 626px;
+
+}
+.certified {
+    width: 693px;
+}
+.certified img{
+    width: 100%;
+}
+
+
+
