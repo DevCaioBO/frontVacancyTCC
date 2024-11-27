@@ -6,7 +6,7 @@
     height: 116px;
     background-color: #e30613;
     align-items: center;
-    padding-inline: 56px;
+    padding-inline: 26px;
 }
 
 .box-align-cotent-white{
@@ -21,14 +21,22 @@
 .box-navigation-support-acess{
     display: flex;
     align-items: center;
+    width: 100%;
+    background-color: red;
+    justify-content: center;
 }
 /*  A UL children em sí que cria um espaçamento entre os items */
-
+nav{
+    display: flex;
+    width: 100%;
+}
 .box-support-acess-children{
     display: flex;
     align-items: center;
     gap: 40px;
-    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: darkred;
 }
 
 .box-support-acess-children > li{
@@ -118,68 +126,45 @@
 #search-icon-button-course-responsive{
     display: none;
 }
+.menu-hamburguer-senai{
+    display: none;
+}
+.search-icon-button-course-red{
+    display: none;
+}
 
-@media(max-width:999px){
-    .box-align-cotent-white{
-        display: flex;
-        padding: 17px 0;
-        border-bottom: 2px solid #fff;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
-    .menu-container-icon{
-        display: flex;
-    }
-    .box-navigation-support-acess{
-        position: fixed;
-        inset: 0;
-        margin: 0;
-        padding: 0;
-        background: red;
-        z-index: 50;
-        display: flex;
-        align-items: start;
-        justify-content: center;
-    }
-    .box-navigation-support-acess ul{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        
-    }
-    #destopModeIconStudent{
+
+
+/* @media(max-width:450px){
+    #desktop-none-navigation{
         display: none;
+       
     }
-    #desktopModeIconSearchCourse{
+
+} */
+
+
+
+
+
+
+@media(max-width:1024px){
+    /* #desktop-none-navigation{
         display: none;
-    }
-    .box-senai-logo-alignment{
-        width: 100px;
-    }
-    .box-senai-logo-alignment > img{
-        width: 100%;
-    }
+       
+    } */
     .senai-initial-page-container{
         display: flex;
         width: 100%;
         height: 116px;
-        background-color: #751c1c;
+        background-color: #e30613;
         align-items: center;
-        
-        padding-inline: 0;
-      
+     
+        padding-inline: 16px;
     }
-    .box-align-cotent-white{
-        display: flex;
-        width: 100%;
-        border: none;
-        justify-content: space-around;
-       
-    }
-    .search-icon-button-course{
-        background-color: red;
-    }
+    /* .box-support-acess-children > li > .link-to-support-acess{
+        font-size: 13px;
+    } */
 
 }
 
@@ -209,4 +194,43 @@
         display: none;
     }
 } */
+@media(max-width:768px){
+    /* #desktop-none-navigation{
+        display: none;
+       
+    } */
 
+    /* .box-support-acess-children > li > .link-to-support-acess{
+        font-size: 13px;
+    } */
+    .senai-initial-page-container{
+        display: flex;
+        width: 100%;
+        height: 116px;
+        background-color: #ffffff;
+        align-items: center;
+     
+        padding-inline: 16px;
+    }
+    .menu-hamburguer-senai{
+        display: flex;
+    }
+    .box-students-acess-perfil-page{
+        display: none;
+    }
+    .search-icon-button-course{
+        display: none;
+    }
+    .search-icon-button-course-red{
+        display: flex;
+    }
+    .box-senai-logo-alignment{
+        width: 200px;
+    }
+    .box-senai-logo-alignment img{
+        width: 100%;
+    }
+    /* .box-align-cotent-white .box-senai-logo-alignment{
+        order: ;
+    } */
+}

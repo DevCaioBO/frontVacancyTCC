@@ -1,11 +1,30 @@
 .blog-image-anounciment{
     display: flex;
-    width: 100%;
+    width: 85%;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    margin-top: 24px;
    
 }
 .blog-image-anounciment img{
-    width: 75%;
+    width: 800px;
 
+}
+
+@media (max-width:1024px){
+    .blog-image-anounciment img{
+        width: 400px;
+    
+    }
+}
+@media (max-width:768px){
+    .blog-image-anounciment{
+        width: 200px;
+    
+    }
+    .blog-image-anounciment img{
+        width: 100%;
+    
+    }
 }

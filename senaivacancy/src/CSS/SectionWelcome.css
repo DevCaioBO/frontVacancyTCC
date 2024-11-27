@@ -5,6 +5,7 @@
     margin-top: 198px;
     height: 100%;
 
+
 }
 
 .decoration-red-radius-one{
@@ -32,7 +33,7 @@
     /* border: 2px solid #000; */
     display: flex;
     justify-content: space-between;
-    padding-left: 95px;
+    padding-left: 25px;
     align-items: center;
     margin-top: 10px;
     gap: 10px;
@@ -41,13 +42,14 @@
 .container-first-section-welcome > .decoration-red-radius-two > .box-welcome-message-p-aligment:nth-child(1){
     width: 85%;
     height: 100%;
+  
     /* border: 2px solid #0f0; */
    
 }
 
 .container-first-section-welcome > .decoration-red-radius-two > span{
     display: flex;
-    width: 597px;
+    width: 65%;
     height: 107px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -59,7 +61,7 @@
 .container-first-section-welcome > .decoration-red-radius-two > .box-welcome-message-p-aligment:nth-child(1) span{
     color: rgba(230, 39, 39, 1);
     font-family: 'Poppins',sans-serif;
-    font-size:2.5rem;
+    font-size:2rem;
     padding-right: 5px;
     
 
@@ -70,7 +72,7 @@
 .container-first-section-welcome > .decoration-red-radius-two > .box-welcome-message-p-aligment  p:nth-child(1){
     color: #000000;
     font-family: 'Poppins',sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 10px;
    
@@ -82,7 +84,7 @@
 .container-first-section-welcome > .decoration-red-radius-two > .box-welcome-message-p-aligment p:nth-child(2){
     color: #000000;
     font-family: 'Poppins',sans-serif;
-    font-size: 1.125rem;
+    font-size: 1rem;
     width: 85%;
     font-weight: 400;
     
@@ -111,26 +113,38 @@
     display: flex;
     width: 100%;
     height: fit-content;
-
+    /* border: 2px solid #000; */
   
     position: absolute;
     justify-content: end;
+   
     align-items: center;
-  margin-top: -150px;
+    padding-right: 45px;
+  margin-top: 50px;
   
    
+}
+
+.minicreita{
+    display: flex;
+    flex-direction: column;
+    width: 432px;
+
+
 }
 
 .student-view-example-design img:nth-child(1){
     display: flex;
-  
-    height: 500px;
-  
+        width: 100%
 }
 .student-view-example-design img:nth-child(2){
-   
-    margin-top: -50px;
-    margin-left: 45px;
+    width: 100%;
+    display: flex;
+
+    margin-top: -75px;
+    
+    /* margin-top: -50px;
+    margin-left: 75px; */
     
    
     
@@ -215,61 +229,38 @@
     display: flex;
     flex-wrap: wrap;
  }
-@media (max-width:999px){
-    #info-senai-desktop-none{
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1024px){
+    .container-first-section-welcome > .decoration-red-radius-one > span{
         display: none;
-    }
-    .student-view-example-design img:nth-child(1){
-        display: flex;
-      
-        height: 176px;
-        
-      
-    }
-    .student-view-example-design img:nth-child(2){
-       width: 110px;
-        margin-top: -20px;
-        margin-left: 45px;
-        
-       
+    
         
     }
-    .student-view-example-design > .first-ball{
-        display: none;
-    }
+
     .container-first-section-welcome > .decoration-red-radius-two > .box-welcome-message-p-aligment:nth-child(1) span{
         color: rgba(230, 39, 39, 1);
         font-family: 'Poppins',sans-serif;
-        font-size:.7rem;
-   
+        font-size:2rem;
         padding-right: 5px;
         
     
     
         
     }
-    .container-first-section-welcome{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        margin-top: 98px;
-        height: 100%;
-    
-    }
-    #info-senai-desktop-none-welcome-responsive{
-        display: flex;
-        position: absolute;
-        flex-wrap: wrap;
-        align-items:baseline;
-    }
-    #welcome-warning-senai-responsive{
-        text-wrap: nowrap;
-    }
     
     .container-first-section-welcome > .decoration-red-radius-two > .box-welcome-message-p-aligment  p:nth-child(1){
         color: #000000;
         font-family: 'Poppins',sans-serif;
-        font-size: .5rem;
+        font-size: 2rem;
         font-weight: 700;
         margin-bottom: 10px;
        
@@ -277,79 +268,52 @@
     
         
     }
-    .container-first-section-welcome {
-        width: 100%;
     
-    }
-    .container-first-section-welcome > .decoration-red-radius-one > span{
-        display: flex;
-        width: 175px;
-        height: 70px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        background-color: rgba(193, 18, 31, 1);
+    .container-first-section-welcome > .decoration-red-radius-two > .box-welcome-message-p-aligment p:nth-child(2){
+        color: #000000;
+        font-family: 'Poppins',sans-serif;
+        font-size: .999rem;
+        width: 85%;
+        font-weight: 400;
+        
+    
     
         
+    }
+    .minicreita{
+        display: flex;
+        flex-direction: column;
+        width: 346px;
+
+    
     }
     .container-first-section-welcome > .decoration-red-radius-two > span{
-        display: flex;
-        width: 137px;
-        height: 80px;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        background-color: rgba(193, 18, 31, 1);
+        display: none;
+       
     
         
     }
-    
-    .line-decoration-gray-one{
-  
-        width: 50%;
+    .container-first-section-welcome > .decoration-red-radius-two > .box-welcome-message-p-aligment:nth-child(1){
+        width: 55%;
+        height: 100%;
+      
+        /* border: 2px solid #0f0; */
+       
     }
-    .line-decoration-gray-one hr{
-  
-        width: 100%;
-        height: 2px;
-    }
-    /* BOX DA MINICREITA */
+
     .student-view-example-design{
         display: flex;
         width: 100%;
         height: fit-content;
-    
+        /* border: 2px solid #000; */
       
         position: absolute;
         justify-content: end;
-    
-        align-items: center;
-      margin-top: 55px;
-      padding-left: 175px;
        
-    }
-
-
-    .box-welcome-message-p-aligment{
-        display: none;
-    }
-    #line-decoration-gray-one-desktop-view{
-        display: none;
-    }
-    .decoration-red-radius-two{
-        display: flex;
-        width: 100%;
-        height: 219px;
-        /* border: 2px solid #000; */
-        display: flex;
-        justify-content: end;
-        padding-left: 95px;
         align-items: center;
-        margin-top: 10px;
-        gap: 10px;
-    }
-    .container-first-section-welcome{
-        /* border: 2px solid salmon; */
-        display: flex;
-        justify-content: space-between;
+      margin-top: 20px;
+      
+       
     }
 }
 
@@ -366,6 +330,39 @@
         flex-direction: column;
     }
 } */
+
+@media(max-width:768px){
+    .student-view-example-design .minicreita{
+        display: none;
+        
+    }
+    #info-senai-desktop-none{
+        display: none;
+    }
+
+    .container-first-section-welcome > .decoration-red-radius-two > .box-welcome-message-p-aligment:nth-child(1) span{
+        color: rgba(230, 39, 39, 1);
+        font-family: 'Poppins',sans-serif;
+        font-size:1rem;
+        padding-right: 5px;
+        
+       
+    
+        
+    }
+    
+    .container-first-section-welcome > .decoration-red-radius-two > .box-welcome-message-p-aligment  p:nth-child(1){
+        color: #000000;
+        font-family: 'Poppins',sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+       
+    
+    
+        
+    }
+}
 
 
 

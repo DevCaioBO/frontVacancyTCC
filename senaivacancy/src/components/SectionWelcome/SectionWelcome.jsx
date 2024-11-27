@@ -10,18 +10,12 @@ export default function SectionWelcome() {
                     <img src={StudentExample} alt="" />
                     <img src={Ellipse1} alt="" />
                     </div>
-                    <div className='first-ball'>
-                        <span></span>
-                    <hr />
-                    <span></span>
-                    </div>
+                  
          
             </div>
             <div className="decoration-red-radius-one">
                 <span className="box-red-radius-decoration">
-                    <p id='info-senai-desktop-none-welcome-responsive'><span id='welcome-warning-senai-responsive'>Bem-Vindo ao SENAI!</span>
-                    <>Transformando</> <>Vidas e Carreiras</>
-                    </p>
+                   
                     </span>
             </div>
             <div className="decoration-red-radius-two">

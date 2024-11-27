@@ -1,7 +1,7 @@
 
 
 import "../../CSS/SectionBlogAnounciment.css"
-import ConhecaoBlog from '../../assets/images/ConheçaoBlog.png'
+import ConhecaoBlog from '../../assets/images/blog.png'
 
 export default function SectionBlogAnounciment() {
   return (
